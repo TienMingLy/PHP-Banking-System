@@ -1,0 +1,73 @@
+#transferBalanceDiv
+{
+	background-color: mediumaquamarine;
+	font-family:"Lucida Console";
+	margin: 0 auto;
+	display: block;
+	width: 500px;
+	height: 585px;
+	border-radius: 15px
+
+}
+
+#theBankLogoImg /* Admin's logo*/
+{
+	margin-left: 50px;
+	width: 400px; 
+	height: 200px;
+	margin-top:5px;
+}
+
+#transferBalanceLabel
+{
+	text-align: center;
+	text-decoration: underline;
+	margin-left: 11.1em;
+}
+
+#senderLabel
+{
+	margin-left: 6.3em;
+	margin-top: 1em;
+}
+
+#senderSelectBox
+{
+	margin-left: 2.5em;	
+	margin-top: 1em;
+}
+
+#receiverLabel 
+{
+	margin-left: 5.6em;
+	margin-top: 1em;
+}
+
+#receiverSelectBox 
+{
+	margin-left: 2.5em;	
+	margin-top: 1em;
+}
+
+/* Amount CSS */
+#amountLabel 
+{
+	margin-left: 6em;
+	margin-top: 0.5em;
+}
+
+#amountInput 
+{
+	margin-left:2.8em;
+	margin-top: 0.5em;
+}
+
+/* Save button */
+#saveButton
+{
+	margin-top: 1.5em;
+	margin-left: 190px;
+	width:100px;
+	height:50px;
+	font-size:20px;
+}

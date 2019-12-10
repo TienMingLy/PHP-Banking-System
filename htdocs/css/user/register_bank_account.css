@@ -1,0 +1,84 @@
+#newAccountTypeDiv
+{
+	background-color: mediumaquamarine;
+	font-family:"Lucida Console";
+	margin: 0 auto;
+	display: block;
+	width: 500px;
+	height: 560px;
+	border-radius: 15px
+
+}
+
+#theBankLogoImg /* Admin's logo*/
+{
+	margin-left: 50px;
+	width: 400px; 
+	height: 200px;
+	margin-top:5px;
+}
+
+#newBankAccountH2
+{
+	text-align: center;
+	text-decoration: underline;
+}
+
+#accountTypeLabel
+{
+	margin-left: 6em;
+}
+
+#accountTypeSelectBox
+{
+	margin-left: 2.5em;	
+}
+
+/* Account Name CSS */
+#accountNameLabel 
+{
+	margin-left: 1.9em;
+	margin-top: 1em;
+}
+
+#accountNameInput 
+{
+	margin-left: 2.5em;	
+	margin-top: 1em;
+}
+
+/* Amount CSS */
+#amountLabel 
+{
+	margin-left: 5.6em;
+	margin-top: 1em;
+}
+
+#amountInput 
+{
+	margin-top: 1em;
+	margin-left: 2.5em;
+}
+
+/* Select Box */
+#accountTypeLabel
+{
+	margin-top: 1.50em;
+	margin-left: 1.77em;
+}
+
+#accountTypeSelectBox
+{
+	margin-top: 1.75em;
+	margin-left: 1.85em;
+}
+
+/* Register Button */
+#createButton
+{
+	margin-top: 25px;
+	margin-left: 9.5em;
+	width: 120px;
+	height:50px;
+	font-size:20px;
+}

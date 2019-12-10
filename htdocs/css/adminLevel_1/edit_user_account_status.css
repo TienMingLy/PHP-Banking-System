@@ -1,0 +1,56 @@
+body
+{
+	background-image: url('../../images/lock.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	height: 75%;
+	background-size: cover;
+}
+
+#editUserAccountStatusDiv
+{
+	background-color: #99ff66;
+	margin: 0 auto;
+	font-family: "Lucida Console";
+	border-radius: 15px;
+	width: 500px;
+	height: 400px;
+}
+
+#edit_user_account_status_form
+{
+	margin-top: 3em;
+}
+
+#accountH2
+{
+	text-decoration: underline;
+	font-style: italic;
+	text-align: center;
+}
+
+#adminLogo 
+{
+	margin-left: 150px;
+	width: 200px; 
+	height: 200px;
+	margin-top:5px;
+}
+
+#actionButton 
+{
+	width:110px;
+	height:50px;
+	font-size:20px;
+	margin-left: 9em;
+}
+
+#cancelButton
+{
+	width:110px;
+	height:50px;
+	font-size:20px;
+	margin-left: 9em;
+	margin-top: 1em;
+}

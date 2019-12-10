@@ -1,0 +1,86 @@
+body
+{
+	background-image: url('../../images/Montreal.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	height: 95%;
+	background-size: cover;
+}
+
+/* The div that contains the entire Bank Logo */
+#welcomeDiv
+{
+	width: 800px;
+	height: 600px;
+	margin: 0 auto;
+	margin-top: 2%;
+}
+
+/* The div that contains the Bank Logo */
+#theBankPicture
+{
+	background-image: url("../../images/TheBank_Logo.png");
+	background-size: cover;
+	background-repeat:no-repeat;
+	background-position:center; 
+	display: flex;
+	justify-content: center;
+	border-radius: 15px;
+}
+
+/* Sign In Tab for Code Management */
+#signInDiv
+{
+	flex: 1;
+	color: green;
+	display: flex;
+}
+
+#signInA
+{
+	margin-bottom: 0;
+	height: 22%;
+	margin-top: 84.5%;
+	margin-left: 6em;
+	text-decoration: none;
+}
+
+#signInPic
+{
+	color: green;
+}
+
+#signInH2
+{
+	color: black;
+	font-family: "Verdana";
+}
+
+/* Sign Up Tab for Code Management */
+#signUpDiv
+{
+	flex: 1;
+	color: #1E90FF;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+}
+
+#signUpA
+{
+	margin-left: 14em;
+	margin-bottom: 0.5em;
+	text-decoration: none;
+}
+
+#signUpPic
+{
+	color: DodgerBlue;
+}
+
+#signUpH2
+{
+	color: black;
+	font-family: "Verdana";
+}

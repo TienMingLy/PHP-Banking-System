@@ -1,0 +1,49 @@
+*
+{
+	font-family: sans-serif;
+}
+
+#userETransferSentTable
+{
+  	border-collapse: collapse;
+    margin-left: 0.5em;
+  	font-size: 0.9em;
+  	min-width: 600px;
+  	border-radius: 5px 5px 0 0;
+  	overflow: hidden;
+  	box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+#userETransferSentTable thead tr
+{
+  	background-color: #009879;
+  	color: #ffffff;
+  	text-align: center;
+  	font-weight: bold;
+}
+
+#userETransferSentTable th, #userETransferSentTable td 
+{
+    text-align: center;
+  	padding: 12px 15px;
+}
+
+#userETransferSentTable tbody tr 
+{
+  	border-bottom: 1px solid #dddddd;
+}
+
+#userETransferSentTable tbody
+{
+	text-align: center;
+}
+
+#userETransferSentTable tbody tr:nth-of-type(even) 
+{
+  	background-color: #f3f3f3;
+}
+
+#userETransferSentTable tbody tr:last-of-type 
+{
+  	border-bottom: 2px solid #009879;
+}

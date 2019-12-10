@@ -1,0 +1,42 @@
+body
+{
+	background-color: grey;
+}
+
+
+#deactivatedDiv
+{
+	margin: 0 auto;
+	font-family:"Lucida Console";
+	width: 750px;
+	height: 600px;
+}
+
+#labelDecoDiv
+{
+	background-color: white;
+	border-radius: 10px
+}
+
+#label
+{
+	margin-left: 1.5em;
+	color: black;
+}
+
+#accessDeniedLogoImg
+{
+	margin-left: 50px;
+	margin-top:5px;	
+
+}
+
+#logOutButton
+{
+	width: 100px;
+	height: 70px;
+	font-size: 20px;
+	margin-left: 15.5em;
+}
+
+

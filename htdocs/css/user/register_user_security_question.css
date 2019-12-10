@@ -1,0 +1,78 @@
+body
+{
+	background-image: url('../../images/Montreal6.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	height: 75%;
+	background-size: cover;
+}
+
+#registerSecurityQuestionDiv
+{
+	background-color: #77C463;
+	margin: 0 auto;
+	font-family: "Lucida Console";
+	border-radius: 15px 50px;
+	width: 500px;
+	height: 550px;
+}
+
+#personalSecurityQuestionLabel
+{
+	text-decoration: underline;
+	font-style: italic;
+	margin-left: 8em;
+}
+
+/* Register Security Question box/div */
+#registerSecurityQuestionDiv
+{
+	margin-top: 3em;
+}
+
+/* The Bank picture */
+#theBankLogoImg
+{
+	margin: 0 auto;	
+	width: 500px;
+	height: 250px;
+}
+
+/* Question CSS */
+#questionLabel
+{
+	margin-left: 4em;
+	font-size: 14pt;
+}
+
+#questionInput
+{
+	margin-top: 2em;
+	margin-left: 2.5em;
+	font-size: 14pt;
+}
+
+/* Answer CSS */
+#answerLabel
+{
+	margin-left: 4em;
+	font-size: 14pt;
+}
+
+#answerInput
+{
+	margin-top: 1em;
+	margin-left: 3.7em;
+	font-size: 14pt;
+}
+
+/* Next button */
+#nextButton
+{
+	margin-top: 1.5em;
+	margin-left: 190px;
+	width:100px;
+	height:50px;
+	font-size:20px;
+}

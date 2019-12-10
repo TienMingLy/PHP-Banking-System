@@ -1,0 +1,128 @@
+body
+{
+  background-color: grey;
+}
+
+#eTransferDiv
+{
+  background-color: #77C463;
+  margin: 0 auto;
+  font-family:"Lucida Console";
+  border-radius: 15px;
+  width: 500px;
+  height: 850px;
+}
+
+#e_transfer_Form
+{
+  margin-top: 3em;
+}
+
+#theBankLogoImg
+{
+  margin: 0 auto; 
+  width: 500px;
+  height: 250px;
+}
+
+#eTransferLabel
+{
+  text-decoration: underline;
+  font-style: italic;
+  margin-left: 11em;
+  font-style: 14pt;
+}
+
+/* Username CSS */
+#usernameLabel
+{
+  margin-left: 3em;
+  font-size: 14pt;
+}
+
+#usernameInput
+{
+  margin-top: 2em;
+  margin-left: 1em;
+  font-size: 14pt;
+}
+
+#fromLabel
+{
+  margin-top: 1em;
+  margin-left: 5.3em;
+  font-size: 14pt;
+}
+
+#fromAccountSelectBox
+{
+  margin-top: 1em;
+  margin-left: 0.55em;
+  font-size: 14pt;
+  width: 12em;
+}
+
+
+#amountLabel
+{
+  font-size: 14pt;
+  margin-left: 4.2em;
+}
+
+#amountInput
+{
+  margin-top: 1em;
+  margin-left: 1em;
+  font-size: 14pt;
+}
+
+#securityQuestionLabel
+{
+  font-size: 14pt;
+  margin-left: 3em;
+}
+
+#securityQuestionInput
+{
+  margin-top: 1em;
+  margin-left: 1em;
+  font-size: 14pt;
+}
+
+#answerLabel
+{
+  font-size: 14pt;
+  margin-left: 4.2em;
+}
+
+#answerInput
+{
+  margin-top: 1em;
+  margin-left: 1em;
+  font-size: 14pt;
+}
+
+#messageLabel
+{
+  font-size: 14pt;
+  margin-left: 3.6em;
+}
+
+#messageInput
+{
+  vertical-align: top;
+  margin-left: 1em;
+  font-size: 14pt;
+  height: 100px;
+  width: 300px;
+}
+
+/* Send button */
+#sendButton
+{
+  margin-top: 1.5em;
+  margin-left: 180px;
+  width:100px;
+  height:50px;
+  font-size:20px;
+}

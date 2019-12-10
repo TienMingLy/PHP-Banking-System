@@ -1,0 +1,50 @@
+/*Credit: https://codepen.io/dcode-software/pen/dLVwOY */
+
+*
+{
+	font-family: sans-serif;
+}
+
+#userContactInfoTable
+{
+  	border-collapse: collapse;
+    margin: 0 auto;
+  	font-size: 0.9em;
+  	min-width: 400px;
+  	border-radius: 5px 5px 0 0;
+  	overflow: hidden;
+  	box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+#userContactInfoTable thead tr
+{
+  	background-color: #009879;
+  	color: #ffffff;
+  	text-align: center;
+  	font-weight: bold;
+}
+
+#userContactInfoTable th, #userContactInfoTable td 
+{
+  	padding: 12px 15px;
+}
+
+#userContactInfoTable tbody tr 
+{
+  	border-bottom: 1px solid #dddddd;
+}
+
+#userContactInfoTable tbody
+{
+	text-align: center;
+}
+
+#userContactInfoTable tbody tr:nth-of-type(even) 
+{
+  	background-color: #f3f3f3;
+}
+
+#userContactInfoTable tbody tr:last-of-type 
+{
+  	border-bottom: 2px solid #009879;
+}

@@ -1,0 +1,107 @@
+/*Credit: https://codepen.io/dcode-software/pen/dLVwOY */
+*
+{
+	font-family: sans-serif;
+}
+
+/* Chequing Account */
+#chequingTable
+{
+    margin-left: 0.5em;
+  	border-collapse: collapse;
+  	font-size: 0.9em;
+  	min-width: 400px;
+  	border-radius: 5px 5px 0 0;
+  	overflow: hidden;
+  	box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+#chequingTable thead tr 
+{
+  	background-color: #009879;
+  	color: #ffffff;
+  	text-align: center;
+  	font-weight: bold;
+}
+
+#chequingTable th, #chequingTable td 
+{
+  	padding: 12px 15px;
+}
+
+#chequingTable tbody tr 
+{
+  	border-bottom: 1px solid #dddddd;
+}
+
+#chequingTable tbody
+{
+	text-align: center;
+}
+
+#chequingTable tbody tr:nth-of-type(even) 
+{
+  	background-color: #f3f3f3;
+}
+
+#chequingTable tbody tr:last-of-type 
+{
+  	border-bottom: 2px solid #009879;
+}
+
+#chequingTable    tbody tr.active-row 
+{
+  	font-weight: bold;
+  	color: #009879;
+}	
+
+/* Saving Account */
+#savingTable
+{
+    margin-left: 0.5em;
+    border-collapse: collapse;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+#savingTable thead tr 
+{
+    background-color: #009879;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+}
+
+#savingTable th, #savingTable td 
+{
+    padding: 12px 15px;
+}
+
+#savingTable tbody tr 
+{
+    border-bottom: 1px solid #dddddd;
+}
+
+#savingTable tbody
+{
+  text-align: center;
+}
+
+#savingTable tbody tr:nth-of-type(even) 
+{
+    background-color: #f3f3f3;
+}
+
+#savingTable tbody tr:last-of-type 
+{
+    border-bottom: 2px solid #009879;
+}
+
+#savingTable    tbody tr.active-row 
+{
+    font-weight: bold;
+    color: #009879;
+} 
