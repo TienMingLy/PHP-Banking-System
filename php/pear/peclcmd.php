@@ -20,8 +20,8 @@
  */
 //the space is needed for windows include paths with trailing backslash
 // http://pear.php.net/bugs/bug.php?id=19482
-if ('D:\php-banking-project\php\pear ' != '@'.'include_path'.'@ ') {
-    ini_set('include_path', trim('D:\php-banking-project\php\pear '). PATH_SEPARATOR .  get_include_path());
+if ('D:\Github Project\PHP-Banking-System\php\pear ' != '@'.'include_path'.'@ ') {
+    ini_set('include_path', trim('D:\Github Project\PHP-Banking-System\php\pear '). PATH_SEPARATOR .  get_include_path());
     $raw = false;
 } else {
     // this is a raw, uninstalled pear, either a cvs checkout, or php distro

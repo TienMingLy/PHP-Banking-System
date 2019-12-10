@@ -11,27 +11,9 @@
 
 				<img src="../../../images/admin.png" alt="Admin logo" id ="adminLogo">
 				<h2 id="accountH2">Account's username: <?php echo $_SESSION['username'];?></h2>		
-
-			<?php 
-				//If it is Active
-				if($_SESSION['active'] == 1)
-				{
-			?>
-					<input type="submit"   name="action" value="Deactivate" id="submitButton"></input>	
-			<?php 
-				}
-				
-				//If it is Deactivated
-				else
-				{
-			?>		
-					<input type="submit"  name="action" value="Reactivate" id="submitButton"></input>
-			<?php			
-				}
-			?>
-					
+				<input type="submit"   name="action" value="Deactivate" id="submitButton"></input>	
 				<br/><br/>
-				<a href="listAllUser1"><input type="submit" value="Back" id="cancelButton"></input></a>
+				<a href="logout"><input type="submit" value="Back" id="cancelButton"></input></a>
 			</form>
 		</div>
 

@@ -39,6 +39,7 @@
                   <li><a href="<?php  echo'/user/listTheUserContactInfo'?>">My Contact Information</a></li>
                   <li><a href="<?php  echo'/user/listTheUserSecurityQuestion'?>">My Security Questions</a></li>
                   <li><a href="<?php  echo'/user/editUserPassword'?>">Change Password</a></li>
+                  <li><a href="<?php  echo'/user/updateAccountStatus'?>">Update Status</a></li>
         </ul> 
       </li>
 

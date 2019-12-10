@@ -40,7 +40,7 @@ goto endofperl
 @rem ';
 #!perl
 #line 43
-    eval 'exec D:\php-banking-project\perl\bin\perl.exe -S $0 ${1+"$@"}'
+    eval 'exec D:\Github Project\PHP-Banking-System\perl\bin\perl.exe -S $0 ${1+"$@"}'
 	if $running_under_some_shell;
 #
 #

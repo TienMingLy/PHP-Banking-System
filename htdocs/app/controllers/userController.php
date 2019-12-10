@@ -8,44 +8,22 @@ class UserController extends Controller
 
     public function account_reactivate()
     {                
-
-         $this->view('user/reactivate_user');   
-
-
-
-        /**
-            $user = $this->model('User');
-        $printAll = $user->getTheSecurityQuestion(2);                        
-        $this->view('user/reactivate_user', ['security' => $printAll]);
-
-            $user = $this->model('User');
-            $printAll = $user->getAllSecurityQuestion($_SESSION['user_id']);                        
-            $this->view('user/reactivate_user', ['security' => $printAll]);
-
-
-            $newAdmin = $this->model('Admin');
-            $allAdmins = $newAdmin->showAllAdmin();
-
-            $this->view('adminLevel_1/list_admin', ['admins' =>$allAdmins]);
-
-
-
-            $secu_q_id = array();
-
-            foreach($security_question as $ids)            
-            {
-                array_push($secu_q_id, $ids['User_Security_id'])
-            }
-
-            $theSecurity_id = rand(1, count($secu_q_id);
-
-            $security_question = $user->getTheSecurityQuestion($theSecurity_id);
-
-            echo $theSecurity_id;
-        */
-        
+        //Supposed to rng a security question
+        $this->view('user/reactivate_user');   
     }
 
+    public function updateAccountStatus()
+    {
+        $this->view('user/edit_user_account_status');
+
+        if(isset($_POST['action']))
+        {
+            $user = $this->model('User');
+            $user->active = false;
+            $user->updateUserAccountStatus($_SESSION['user_id']);
+            header('location:/home/logout');
+        }
+    }
 
     public function login()
     {

@@ -30,7 +30,7 @@
 								<td><?php echo $admin['Privileged_Level'] ?></td>
 								<td><?php echo $admin['Last_Login_Date'] ?></td>
 								<td><a href="editAdminPassword1?Admin_id=<?=$admin['Admin_id']?>"><input type="submit" value="Edit"></input></a></td>
-								<td><a href="deleteAdminAccount1?Admin_id=<?=$admin['Admin_id']?>"><input type="submit" value="Edit"></input></a></td>
+								<td><a href="deleteAdminAccount1?Admin_id=<?=$admin['Admin_id']?>"><input type="submit" value="Delete"></input></a></td>
 							</tr>
 					<?php
 						}

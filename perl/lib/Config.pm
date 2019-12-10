@@ -83,7 +83,7 @@ sub AUTOLOAD {
 
 # tie returns the object, so the value returned to require will be true.
 tie %Config, 'Config', {
-    archlibexp => 'D:\\php-banking-project\\perl\\lib',
+    archlibexp => 'D:\\Github Project\\PHP-Banking-System\\perl\\lib',
     archname => 'MSWin32-x64-multi-thread',
     cc => 'gcc',
     d_readlink => undef,
@@ -95,14 +95,14 @@ tie %Config, 'Config', {
     inc_version_list => '',
     intsize => '4',
     ldlibpthname => '',
-    libpth => 'D:\\php-banking-project\\c\\lib \\xampp\\c\\x86_64-w64-mingw32\\lib',
+    libpth => 'D:\\Github Project\\PHP-Banking-System\\c\\lib \\xampp\\c\\x86_64-w64-mingw32\\lib',
     osname => 'MSWin32',
     osvers => '4.0',
     path_sep => ';',
-    privlibexp => 'D:\\php-banking-project\\perl\\lib',
-    scriptdir => 'D:\\php-banking-project\\perl\\bin',
-    sitearchexp => 'D:\\php-banking-project\\perl\\site\\lib',
-    sitelibexp => 'D:\\php-banking-project\\perl\\site\\lib',
+    privlibexp => 'D:\\Github Project\\PHP-Banking-System\\perl\\lib',
+    scriptdir => 'D:\\Github Project\\PHP-Banking-System\\perl\\bin',
+    sitearchexp => 'D:\\Github Project\\PHP-Banking-System\\perl\\site\\lib',
+    sitelibexp => 'D:\\Github Project\\PHP-Banking-System\\perl\\site\\lib',
     so => 'dll',
     useithreads => 'define',
     usevendorprefix => 'define',

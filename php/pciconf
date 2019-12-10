@@ -1,4 +1,4 @@
-#!D:\php-banking-project\php\.\php.exe
+#!D:\Github Project\PHP-Banking-System\php\.\php.exe
 <?php
 /**
  * The Predefined Classes/Constants array script generator.
@@ -98,7 +98,7 @@ if ($args->isDefined('v')) {
 if ($args->isDefined('o')) {
     $o = $args->getValue('o');
     if (strpos($o, '@'.'php_dir@')) {
-        $o = str_replace('@'.'php_dir@', 'D:\php-banking-project\php\pear', $o);
+        $o = str_replace('@'.'php_dir@', 'D:\Github Project\PHP-Banking-System\php\pear', $o);
     }
     if (is_dir($o) && (is_writable($o))) {
         /* Directory where to write
@@ -113,7 +113,7 @@ if ($args->isDefined('o')) {
         exit(1);
     }
 } else {
-    $target_directory = 'D:\php-banking-project\php\pear' . $ds . 'PHP' .$ds . 'CompatInfo' . $ds;
+    $target_directory = 'D:\Github Project\PHP-Banking-System\php\pear' . $ds . 'PHP' .$ds . 'CompatInfo' . $ds;
 }
 
 // enable
