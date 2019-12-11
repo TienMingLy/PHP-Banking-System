@@ -59,6 +59,13 @@
 				?>
 				</tbody>
 			</table>
+			<button onclick="myFunction()">Print</button>
+			<script>
+					function myFunction() 
+					{
+ 	 					window.print();
+					}
+			</script>
 			<a href="/../admin/listAllUser1"><h2>Back to Users</h2></a>										
 		</div>
 	</body>

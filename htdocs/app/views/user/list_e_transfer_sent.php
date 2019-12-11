@@ -43,6 +43,15 @@
 							<td><a href="redeem_e_transfer?Money_Transfer_id=<?=$e_transfer['Money_Transfer_id']?>"><input type="submit" value="Redeem"></input></a></td>
 					<?php
 							}
+					?>
+
+					<?php				
+							if($e_transfer['Status'] == "Pending")
+							{
+					?>
+							<td><a href="cancel_e_transfer?Money_Transfer_id=<?=$e_transfer['Money_Transfer_id']?>"><input type="submit" value="Cancel"></input></a></td>
+					<?php
+							}
 
 							else if($e_transfer['Status'] == "Pending" || $e_transfer['Status'] == "Accepted" || $e_transfer['Status'] == "Refunded")
 							{
