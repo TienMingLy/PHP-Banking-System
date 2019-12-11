@@ -59,13 +59,7 @@
 				?>
 				</tbody>
 			</table>
-			<button onclick="myFunction()">Print</button>
-			<script>
-					function myFunction() 
-					{
- 	 					window.print();
-					}
-			</script>
+
 			<a href="/../home/index"><h2>Back to Index</h2></a>				
 		</div>
 	</body>

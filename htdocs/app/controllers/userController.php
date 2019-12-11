@@ -827,10 +827,7 @@ class UserController extends Controller
         }
     }
 
-    public function cancel_e_transfer()
-    {
 
-    }
 
     public function logout()
     {

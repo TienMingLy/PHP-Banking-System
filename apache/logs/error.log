@@ -10406,13 +10406,3 @@ sl:warn] [pid 6292:tid 668] AH01909: www.example.com:443:0 server certificate do
 [Tue Dec 10 15:28:59.052603 2019] [php7:notice] [pid 1604:tid 1856] [client ::1:51075] PHP Notice:  Undefined index: User_id in D:\\Github Project\\PHP-Banking-System\\htdocs\\app\\controllers\\userController.php on line 23, referer: https://localhost/user/updateAccountStatus
 [Tue Dec 10 15:30:29.454149 2019] [php7:notice] [pid 1604:tid 1880] [client ::1:51103] PHP Notice:  Undefined index: User_id in D:\\Github Project\\PHP-Banking-System\\htdocs\\app\\controllers\\userController.php on line 23, referer: https://localhost/user/updateAccountStatus
 [Tue Dec 10 15:30:37.935422 2019] [php7:notice] [pid 1604:tid 1880] [client ::1:51103] PHP Notice:  Undefined index: User_id in D:\\Github Project\\PHP-Banking-System\\htdocs\\app\\controllers\\userController.php on line 23, referer: https://localhost/user/updateAccountStatus
-[Tue Dec 10 18:47:57.812271 2019] [ssl:warn] [pid 5380:tid 652] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
-[Tue Dec 10 18:47:59.769922 2019] [core:warn] [pid 5380:tid 652] AH00098: pid file D:/Github Project/PHP-Banking-System/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
-[Tue Dec 10 18:47:59.773912 2019] [ssl:warn] [pid 5380:tid 652] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
-[Tue Dec 10 18:47:59.791863 2019] [mpm_winnt:notice] [pid 5380:tid 652] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.10 configured -- resuming normal operations
-[Tue Dec 10 18:47:59.791863 2019] [mpm_winnt:notice] [pid 5380:tid 652] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
-[Tue Dec 10 18:47:59.791863 2019] [core:notice] [pid 5380:tid 652] AH00094: Command line: 'd:\\github project\\php-banking-system\\apache\\bin\\httpd.exe -d D:/Github Project/PHP-Banking-System/apache'
-[Tue Dec 10 18:47:59.796851 2019] [mpm_winnt:notice] [pid 5380:tid 652] AH00418: Parent: Created child process 13348
-[Tue Dec 10 18:48:00.216514 2019] [ssl:warn] [pid 13348:tid 668] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
-[Tue Dec 10 18:48:00.271077 2019] [ssl:warn] [pid 13348:tid 668] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
-[Tue Dec 10 18:48:00.289533 2019] [mpm_winnt:notice] [pid 13348:tid 668] AH00354: Child: Starting 150 worker threads.
