@@ -113,6 +113,6 @@ class __TwigTemplate_b14e3e92036136d7b249cbf681cd4d76f85ed47cb9c23901596244e17d5
 
     public function getSourceContext()
     {
-        return new Source("", "table/structure/action_row_in_structure_table.twig", "D:\\xampp-banking_system\\phpMyAdmin\\templates\\table\\structure\\action_row_in_structure_table.twig");
+        return new Source("", "table/structure/action_row_in_structure_table.twig", "D:\\Github Project\\PHP-Banking-System\\phpMyAdmin\\templates\\table\\structure\\action_row_in_structure_table.twig");
     }
 }

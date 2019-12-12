@@ -71,6 +71,6 @@ class __TwigTemplate_210ab4389d946ac0ee5a8f29b07a9c1bdf7d6c0bc7fc2ee2495f47796d7
 
     public function getSourceContext()
     {
-        return new Source("", "table/secondary_tabs.twig", "D:\\xampp-banking_system\\phpMyAdmin\\templates\\table\\secondary_tabs.twig");
+        return new Source("", "table/secondary_tabs.twig", "D:\\Github Project\\PHP-Banking-System\\phpMyAdmin\\templates\\table\\secondary_tabs.twig");
     }
 }

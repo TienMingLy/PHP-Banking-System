@@ -79,6 +79,6 @@ class __TwigTemplate_ef2cd5b1d6e64704e894d9048ecc042ca81442d31c1d1f4909d111512cc
 
     public function getSourceContext()
     {
-        return new Source("", "display/results/comment_for_row.twig", "D:\\xampp-banking_system\\phpMyAdmin\\templates\\display\\results\\comment_for_row.twig");
+        return new Source("", "display/results/comment_for_row.twig", "D:\\Github Project\\PHP-Banking-System\\phpMyAdmin\\templates\\display\\results\\comment_for_row.twig");
     }
 }

@@ -169,6 +169,6 @@ class __TwigTemplate_3278fe999f5d0488a5e1e2d296d73d19f83a5715479067155fe5885a287
 
     public function getSourceContext()
     {
-        return new Source("", "display/results/options_block.twig", "D:\\xampp-banking_system\\phpMyAdmin\\templates\\display\\results\\options_block.twig");
+        return new Source("", "display/results/options_block.twig", "D:\\Github Project\\PHP-Banking-System\\phpMyAdmin\\templates\\display\\results\\options_block.twig");
     }
 }

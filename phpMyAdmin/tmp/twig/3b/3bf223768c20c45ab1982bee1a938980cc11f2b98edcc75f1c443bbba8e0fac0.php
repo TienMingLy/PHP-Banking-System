@@ -93,6 +93,6 @@ class __TwigTemplate_afbdbfc5f25f144c2ba8973c6bb2b05b1c8d94f416c7ca32efffd52494a
 
     public function getSourceContext()
     {
-        return new Source("", "display/results/show_all_checkbox.twig", "D:\\xampp-banking_system\\phpMyAdmin\\templates\\display\\results\\show_all_checkbox.twig");
+        return new Source("", "display/results/show_all_checkbox.twig", "D:\\Github Project\\PHP-Banking-System\\phpMyAdmin\\templates\\display\\results\\show_all_checkbox.twig");
     }
 }

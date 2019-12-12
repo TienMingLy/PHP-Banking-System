@@ -72,6 +72,6 @@ class __TwigTemplate_fef54dd1dc2b4fad473a450b9a02162e5dbb0f0b1d28e166c39fd2e3868
 
     public function getSourceContext()
     {
-        return new Source("", "database/structure/print_view_data_dictionary_link.twig", "D:\\xampp-banking_system\\phpMyAdmin\\templates\\database\\structure\\print_view_data_dictionary_link.twig");
+        return new Source("", "database/structure/print_view_data_dictionary_link.twig", "D:\\Github Project\\PHP-Banking-System\\phpMyAdmin\\templates\\database\\structure\\print_view_data_dictionary_link.twig");
     }
 }

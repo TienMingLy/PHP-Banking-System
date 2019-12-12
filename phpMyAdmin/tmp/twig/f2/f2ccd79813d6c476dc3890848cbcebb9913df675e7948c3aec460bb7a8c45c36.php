@@ -112,6 +112,6 @@ class __TwigTemplate_939d3cd65c4e1ed6ffedeb146809bca8d5611c6d030d1c53f1a48d192d6
 
     public function getSourceContext()
     {
-        return new Source("", "display/export/hidden_inputs.twig", "D:\\xampp-banking_system\\phpMyAdmin\\templates\\display\\export\\hidden_inputs.twig");
+        return new Source("", "display/export/hidden_inputs.twig", "D:\\Github Project\\PHP-Banking-System\\phpMyAdmin\\templates\\display\\export\\hidden_inputs.twig");
     }
 }

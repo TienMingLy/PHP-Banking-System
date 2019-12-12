@@ -278,6 +278,6 @@ $context["foreign_column"]]));
 
     public function getSourceContext()
     {
-        return new Source("", "table/relation/foreign_key_row.twig", "D:\\xampp-banking_system\\phpMyAdmin\\templates\\table\\relation\\foreign_key_row.twig");
+        return new Source("", "table/relation/foreign_key_row.twig", "D:\\Github Project\\PHP-Banking-System\\phpMyAdmin\\templates\\table\\relation\\foreign_key_row.twig");
     }
 }

@@ -119,62 +119,105 @@ class UserController extends Controller
 
     public function registerInfo()
     {
-        $this->view('user/register_user_info');
-
-        if(isset($_POST['action']))
-        {            
-            $user = $this->model('User');
-            $user->firstname = $_POST['firstname'];
-            $user->lastname = $_POST['lastname'];
-            $user->street_address = $_POST['street_address'];
-            $user->city = $_POST['city'];
-            $user->province = $_POST['province'];
-            $user->zipcode = $_POST['zipcode'];
-            $user->addUserInfo();
-                      
-            header('location:/user/registerContactInfo'); 
-        }
-
-        else
+        if(!isset($_POST['action']))
         {
             $this->view('user/register_user_info');
+        }
+        
+        else
+        {
+            //Add more information
+            if(isset($_SESSION['user_id']))        
+            {   
+                $user = $this->model('User');
+                $user->firstname = $_POST['firstname'];
+                $user->lastname = $_POST['lastname'];
+                $user->street_address = $_POST['street_address'];
+                $user->city = $_POST['city'];
+                $user->province = $_POST['province'];
+                $user->zipcode = $_POST['zipcode'];
+                $user->user_id = $_SESSION['user_id'];
+                $user->addUserInfo(); 
+
+                //Add more info
+                if(isset($_SESSION['account_active']))
+                {
+                    header('location:/user/listTheUserInfo');
+                }
+
+                //New User
+                else
+                {
+                    header('location:/user/registerContactInfo'); 
+                }
+            }
         }
     }
 
     public function registerContactInfo()
     {
-        $this->view('user/register_user_contact_info');
-
-        if(isset($_POST['action']))
+        if(!isset($_POST['action']))
         {
-            $user = $this->model('User');
-            $user->type = $_POST['type'];
-            $user->info = $_POST['info'];
-            $user->addUserContactInfo();
-                      
-            header('location:/user/registerSecurityQuestion'); 
+            $this->view('user/register_user_contact_info');
+        }
+        
+        else
+        {
+            //Add more contact information
+            if(isset($_SESSION['user_id'])) 
+            {   
+                $user = $this->model('User');
+                $user->type = $_POST['type'];
+                $user->info = $_POST['info'];
+                $user->user_id = $_SESSION['user_id'];
+                $user->addUserContactInfo();                     
+
+                //Add more contact info
+                if(isset($_SESSION['account_active']))
+                {
+                    header('location:/user/listTheUserInfo'); 
+                }
+
+                //New user
+                else
+                {
+                    header('location:/user/registerSecurityQuestion'); 
+                }
+            }
         }
     }
 
     public function registerSecurityQuestion()
-    {
-        $this->view('user/register_user_security_question');
-
-        if(isset($_POST['action']))
-        {
-            $user = $this->model('User');
-            $user->question = $_POST['question'];
-            $user->answer_hash = password_hash($_POST['answer_hash'], PASSWORD_DEFAULT);
-            $user->addUserSecurityQuestion();
-                      
-            unset($_SESSION['user_id']);
-            
-            header('location:/user/login');
-        }
-
-        else
+    {        
+        if(!isset($_POST['action']))
         {
             $this->view('user/register_user_security_question');
+        }
+        
+        else
+        {
+            //Add more security question
+            if(isset($_SESSION['user_id']))        
+            {   
+                $user = $this->model('User');
+                $user->question = $_POST['question'];
+                $user->answer_hash = password_hash($_POST['answer_hash'], PASSWORD_DEFAULT);
+                $user->user_id = $_SESSION['user_id'];
+                $user->addUserSecurityQuestion();
+
+                //Add more security question
+                if(isset($_SESSION['account_active']))
+                {
+                    header('location:/user/listTheUserSecurityQuestion');
+                }
+
+                //New user
+                else
+                {
+                    unset($_SESSION['user_id']);            
+                    header('location:/user/login');
+                }
+            }
         }
     }
 
@@ -366,6 +409,8 @@ class UserController extends Controller
         }
     }
 
+    /*-----------------------------------------------------TRANSACTIONS--------------------------------------------------*/
+    /*------------------------------------------------------------------------------------------------------------------*/
     public function transferBetweenAccount()
     {
         $UserModel = $this->model('User');
@@ -767,7 +812,7 @@ class UserController extends Controller
         }
     }
 
-     public function redeem_e_transfer()
+    public function redeem_e_transfer()
     {   
         $userModel = $this->model('User');
         $theETransferData = $userModel->getTheETransfer($_GET['Money_Transfer_id']);
@@ -827,7 +872,20 @@ class UserController extends Controller
         }
     }
 
+    public function cancel_e_transfer()
+    {   
+        $userModel = $this->model('User');
+        $theETransferData = $userModel->getTheETransfer($_GET['Money_Transfer_id']);
+        $this->view('user/cancel_e_transfer', ['e_transfer_data' =>$theETransferData]);
 
+        if(isset($_POST['action']))
+        {
+            $updateETransfer = $this->model('User');
+            $updateETransfer->status = "Cancelled";
+            $updateETransfer->updateETransferStatus($_GET['Money_Transfer_id']);   
+            header('location:/user/list_e_transfer_sent');
+        }
+    }
 
     public function logout()
     {

@@ -76,6 +76,6 @@ class __TwigTemplate_cb248073886046c7ef98239e0da5720fb87e61ae17147d0297bcaf0bfbb
 
     public function getSourceContext()
     {
-        return new Source("", "database/structure/favorite_anchor.twig", "D:\\xampp-banking_system\\phpMyAdmin\\templates\\database\\structure\\favorite_anchor.twig");
+        return new Source("", "database/structure/favorite_anchor.twig", "D:\\Github Project\\PHP-Banking-System\\phpMyAdmin\\templates\\database\\structure\\favorite_anchor.twig");
     }
 }

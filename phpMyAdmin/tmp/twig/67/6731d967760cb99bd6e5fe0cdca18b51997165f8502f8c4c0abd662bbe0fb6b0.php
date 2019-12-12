@@ -427,6 +427,6 @@ $context["column"], "getSubPart", [], "method"), "html", null, true))) : (print 
 
     public function getSourceContext()
     {
-        return new Source("", "table/index_form.twig", "D:\\xampp-banking_system\\phpMyAdmin\\templates\\table\\index_form.twig");
+        return new Source("", "table/index_form.twig", "D:\\Github Project\\PHP-Banking-System\\phpMyAdmin\\templates\\table\\index_form.twig");
     }
 }

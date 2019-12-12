@@ -136,6 +136,6 @@ class __TwigTemplate_a7c80e9e82aa98fd0d6fe59d4a05e706cc78f467a487df83daac3f2513f
 
     public function getSourceContext()
     {
-        return new Source("", "table/structure/add_column.twig", "D:\\xampp-banking_system\\phpMyAdmin\\templates\\table\\structure\\add_column.twig");
+        return new Source("", "table/structure/add_column.twig", "D:\\Github Project\\PHP-Banking-System\\phpMyAdmin\\templates\\table\\structure\\add_column.twig");
     }
 }

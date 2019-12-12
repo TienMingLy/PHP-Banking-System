@@ -84,6 +84,6 @@ class __TwigTemplate_b2bc50bfe1d058a8c39c3f2a923d430976df2154fd7abe852ed9050e307
 
     public function getSourceContext()
     {
-        return new Source("", "navigation/logo.twig", "D:\\xampp-banking_system\\phpMyAdmin\\templates\\navigation\\logo.twig");
+        return new Source("", "navigation/logo.twig", "D:\\Github Project\\PHP-Banking-System\\phpMyAdmin\\templates\\navigation\\logo.twig");
     }
 }

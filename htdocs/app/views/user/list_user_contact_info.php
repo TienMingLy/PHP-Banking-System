@@ -5,7 +5,8 @@
 	</head>
 	
 	<body>
-		<div id="userContactInfoListDiv">					
+		<div id="userContactInfoListDiv">	
+			<a href="registerContactInfo">Create New Contact Info</a>				
 			<table id="userContactInfoTable">
 				<thead>
 					<tr>

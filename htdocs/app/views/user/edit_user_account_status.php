@@ -13,7 +13,7 @@
 				<h2 id="accountH2">Account's username: <?php echo $_SESSION['username'];?></h2>		
 				<input type="submit"   name="action" value="Deactivate" id="submitButton"></input>	
 				<br/><br/>
-				<a href="logout"><input type="submit" value="Back" id="cancelButton"></input></a>
+				<a href="index">Back to Index</a>
 			</form>
 		</div>
 

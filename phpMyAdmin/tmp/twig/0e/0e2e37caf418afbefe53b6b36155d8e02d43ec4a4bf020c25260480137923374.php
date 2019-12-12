@@ -90,6 +90,6 @@ class __TwigTemplate_946ca2313a53a2f3063f8152494a5864c3ad4a6bb7d43e3000619aafe17
 
     public function getSourceContext()
     {
-        return new Source("", "div_for_slider_effect.twig", "D:\\xampp-banking_system\\phpMyAdmin\\templates\\div_for_slider_effect.twig");
+        return new Source("", "div_for_slider_effect.twig", "D:\\Github Project\\PHP-Banking-System\\phpMyAdmin\\templates\\div_for_slider_effect.twig");
     }
 }

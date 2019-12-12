@@ -145,6 +145,6 @@ class __TwigTemplate_a83b807790a6a39f9b0b598b0810ba165cad61ce98ae522b40bff787888
 
     public function getSourceContext()
     {
-        return new Source("", "table/structure/check_all_table_column.twig", "D:\\xampp-banking_system\\phpMyAdmin\\templates\\table\\structure\\check_all_table_column.twig");
+        return new Source("", "table/structure/check_all_table_column.twig", "D:\\Github Project\\PHP-Banking-System\\phpMyAdmin\\templates\\table\\structure\\check_all_table_column.twig");
     }
 }

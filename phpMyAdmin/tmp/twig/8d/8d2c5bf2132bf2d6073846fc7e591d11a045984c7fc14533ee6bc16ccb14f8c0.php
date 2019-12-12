@@ -113,6 +113,6 @@ class __TwigTemplate_3387270d6a4a5693e5f7e6563507acfe440274f6098ec1d583abdf6dedd
 
     public function getSourceContext()
     {
-        return new Source("", "table/insert/continue_insertion_form.twig", "D:\\xampp-banking_system\\phpMyAdmin\\templates\\table\\insert\\continue_insertion_form.twig");
+        return new Source("", "table/insert/continue_insertion_form.twig", "D:\\Github Project\\PHP-Banking-System\\phpMyAdmin\\templates\\table\\insert\\continue_insertion_form.twig");
     }
 }

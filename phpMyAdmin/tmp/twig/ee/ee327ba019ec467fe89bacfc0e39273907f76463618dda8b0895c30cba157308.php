@@ -109,6 +109,6 @@ class __TwigTemplate_99ca9f2de50cb62e1eb71b082b1e2dd0a3848fd6866c9f95d8a50112834
 
     public function getSourceContext()
     {
-        return new Source("", "display/export/options_output_compression.twig", "D:\\xampp-banking_system\\phpMyAdmin\\templates\\display\\export\\options_output_compression.twig");
+        return new Source("", "display/export/options_output_compression.twig", "D:\\Github Project\\PHP-Banking-System\\phpMyAdmin\\templates\\display\\export\\options_output_compression.twig");
     }
 }

@@ -290,21 +290,21 @@ class User extends Model  //user is sub-class of database
 	public function addUserInfo()
 	{
 		$stmt = $this->_connection->prepare("INSERT INTO User_Info(FirstName, LastName, Street_Address, City, Province, Zipcode, User_id) VALUES(:FirstName, :LastName, :Street_Address, :City, :Province, :Zipcode, :User_id)");
-		$stmt->execute(['FirstName'=>$this->firstname, 'LastName'=>$this->lastname, 'Street_Address'=>$this->street_address, 'City'=>$this->city, 'Province'=>$this->province, 'Zipcode'=>$this->zipcode, 'User_id'=>$_SESSION['user_id']]);
+		$stmt->execute(['FirstName'=>$this->firstname, 'LastName'=>$this->lastname, 'Street_Address'=>$this->street_address, 'City'=>$this->city, 'Province'=>$this->province, 'Zipcode'=>$this->zipcode, 'User_id'=>$this->user_id]);
 		return $stmt->rowCount();
 	}
 
 	public function addUserContactInfo()
 	{
 		$stmt = $this->_connection->prepare("INSERT INTO User_Contact_Info(Type, Info, User_id) VALUES(:Type, :Info, :User_id)");
-		$stmt->execute(['Type'=>$this->type, 'Info'=>$this->info, 'User_id'=>$_SESSION['user_id']]);
+		$stmt->execute(['Type'=>$this->type, 'Info'=>$this->info, 'User_id'=>$this->user_id]);
 		return $stmt->rowCount();
 	}
 
 	public function addUserSecurityQuestion()
 	{
 		$stmt = $this->_connection->prepare("INSERT INTO User_Security_Question(Question, Answer_Hash, User_id) VALUES(:Question, :Answer_Hash, :User_id)");
-		$stmt->execute(['Question'=>$this->question, 'Answer_Hash'=>$this->answer_hash, 'User_id'=>$_SESSION['user_id']]);
+		$stmt->execute(['Question'=>$this->question, 'Answer_Hash'=>$this->answer_hash, 'User_id'=>$this->user_id]);
 		return $stmt->rowCount();
 	}
 

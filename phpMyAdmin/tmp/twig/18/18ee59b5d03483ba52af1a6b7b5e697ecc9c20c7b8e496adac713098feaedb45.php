@@ -89,6 +89,6 @@ class __TwigTemplate_74cb95512b8c211558ba9c2bd8cdcdbcf7993b8b8fd732d47d4af727ec4
 
     public function getSourceContext()
     {
-        return new Source("", "console/toolbar.twig", "D:\\xampp-banking_system\\phpMyAdmin\\templates\\console\\toolbar.twig");
+        return new Source("", "console/toolbar.twig", "D:\\Github Project\\PHP-Banking-System\\phpMyAdmin\\templates\\console\\toolbar.twig");
     }
 }

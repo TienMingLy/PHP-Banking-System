@@ -77,9 +77,25 @@ class Admin extends Model  //user is sub-class of database
 		return $results = $stmt->fetchAll();
 	}	
 
+	public function showTheSearchedAdmin($username)
+	{
+		$searchUsername = "%".$username."%";
+		$stmt = $this->_connection->prepare("SELECT * FROM Administrator WHERE Username LIKE '".$searchUsername."'");
+		$stmt->execute();
+		return $results = $stmt->fetchAll();
+	}
+
 	public function showAllUser()
 	{
 		$stmt = $this->_connection->prepare("SELECT * FROM User ORDER BY Username");
+		$stmt->execute();
+		return $results = $stmt->fetchAll();
+	}
+
+	public function showTheSearchedUser($username)
+	{		
+		$searchUsername = "%".$username."%";
+		$stmt = $this->_connection->prepare("SELECT * FROM User WHERE Username LIKE '".$searchUsername."'");
 		$stmt->execute();
 		return $results = $stmt->fetchAll();
 	}
@@ -175,12 +191,11 @@ class Admin extends Model  //user is sub-class of database
 		return $stmt->rowCount(); 
 	}
 
-	public function deleteUserCredential($user_id)
+	public function deleteUserAccount($user_id)
 	{
 		$stmt = $this->_connection->prepare("DELETE FROM User WHERE User_id LIKE :User_id");
 		$stmt->execute(['User_id'=>$user_id]);
 		return $stmt->rowCount(); 
 	}	
-
 }
 ?>

@@ -65,6 +65,6 @@ class __TwigTemplate_af5beed5cff56391e0e4936188b761c16294b90e1b87013445e473699af
 
     public function getSourceContext()
     {
-        return new Source("", "database/structure/browse_table_label.twig", "D:\\xampp-banking_system\\phpMyAdmin\\templates\\database\\structure\\browse_table_label.twig");
+        return new Source("", "database/structure/browse_table_label.twig", "D:\\Github Project\\PHP-Banking-System\\phpMyAdmin\\templates\\database\\structure\\browse_table_label.twig");
     }
 }

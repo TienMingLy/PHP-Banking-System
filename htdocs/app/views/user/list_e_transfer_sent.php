@@ -37,20 +37,26 @@
 					?>
 							<td><?php echo $theReceiver->Username?></td>		
 					<?php				
-							if($e_transfer['Status'] == "Refused")
+							if($e_transfer['Status'] == "Refused" || $e_transfer['Status'] == "Cancelled")
 							{
 					?>
 							<td><a href="redeem_e_transfer?Money_Transfer_id=<?=$e_transfer['Money_Transfer_id']?>"><input type="submit" value="Redeem"></input></a></td>
 					<?php
 							}
 
-							else if($e_transfer['Status'] == "Pending" || $e_transfer['Status'] == "Accepted" || $e_transfer['Status'] == "Refunded")
+							else if($e_transfer['Status'] == "Pending")
 							{
 					?>
-								<td></td>
+							<td><a href="cancel_e_transfer?Money_Transfer_id=<?=$e_transfer['Money_Transfer_id']?>"><input type="submit" value="Cancel"></input></a></td>
 				<?php
 							}
+							else if($e_transfer['Status'] == "Accepted" || $e_transfer['Status'] == "Refunded")
+							{
 					?>		
+							<td></td>
+				<?php
+							}
+					?>
 						</tr>
 				<?php						
 					}

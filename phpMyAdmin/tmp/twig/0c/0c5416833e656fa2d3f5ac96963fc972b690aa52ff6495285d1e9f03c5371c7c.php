@@ -293,6 +293,6 @@ class __TwigTemplate_7e0601008c50fe303dd39921ad96f6e9baa4dacb884b8c1679d5808da82
 
     public function getSourceContext()
     {
-        return new Source("", "table/structure/row_stats_table.twig", "D:\\xampp-banking_system\\phpMyAdmin\\templates\\table\\structure\\row_stats_table.twig");
+        return new Source("", "table/structure/row_stats_table.twig", "D:\\Github Project\\PHP-Banking-System\\phpMyAdmin\\templates\\table\\structure\\row_stats_table.twig");
     }
 }
