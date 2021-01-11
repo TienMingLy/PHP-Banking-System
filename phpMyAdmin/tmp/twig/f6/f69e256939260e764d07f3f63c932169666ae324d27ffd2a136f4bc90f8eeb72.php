@@ -111,6 +111,6 @@ class __TwigTemplate_29c5e703fed2132721bc4f52391440823d346367909697f2ee9c2b8e38f
 
     public function getSourceContext()
     {
-        return new Source("", "table/structure/table_structure_header.twig", "D:\\xampp-banking_system\\phpMyAdmin\\templates\\table\\structure\\table_structure_header.twig");
+        return new Source("", "table/structure/table_structure_header.twig", "D:\\Github Project\\PHP-Banking-System\\phpMyAdmin\\templates\\table\\structure\\table_structure_header.twig");
     }
 }

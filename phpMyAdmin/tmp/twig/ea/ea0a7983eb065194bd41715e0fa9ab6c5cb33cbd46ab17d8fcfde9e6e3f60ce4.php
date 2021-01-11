@@ -72,6 +72,6 @@ class __TwigTemplate_0d6e1e7497234ca32c0ce421cad440dc6aae60d28bcb3f4bcc1c393f421
 
     public function getSourceContext()
     {
-        return new Source("", "table/structure/move_columns_dialog.twig", "D:\\xampp-banking_system\\phpMyAdmin\\templates\\table\\structure\\move_columns_dialog.twig");
+        return new Source("", "table/structure/move_columns_dialog.twig", "D:\\Github Project\\PHP-Banking-System\\phpMyAdmin\\templates\\table\\structure\\move_columns_dialog.twig");
     }
 }

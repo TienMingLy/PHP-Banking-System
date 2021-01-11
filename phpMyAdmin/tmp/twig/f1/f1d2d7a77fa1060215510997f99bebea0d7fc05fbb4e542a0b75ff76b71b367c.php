@@ -64,6 +64,6 @@ class __TwigTemplate_1cd9a98b6f3d45ac16368beffefc46d39c287f9666179fe1c9eac0d89ad
 
     public function getSourceContext()
     {
-        return new Source("", "fk_checkbox.twig", "D:\\xampp-banking_system\\phpMyAdmin\\templates\\fk_checkbox.twig");
+        return new Source("", "fk_checkbox.twig", "D:\\Github Project\\PHP-Banking-System\\phpMyAdmin\\templates\\fk_checkbox.twig");
     }
 }

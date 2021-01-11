@@ -51,6 +51,6 @@ class __TwigTemplate_cf6ddea76b30424fdf039a94a5902a5d2de62366d3ea2b083a8c59dc0c9
 
     public function getSourceContext()
     {
-        return new Source("", "login/footer.twig", "C:\\Users\\cstuser\\Documents\\GitHub\\xampp-banking_system\\phpMyAdmin\\templates\\login\\footer.twig");
+        return new Source("", "login/footer.twig", "D:\\Github Project\\PHP-Banking-System\\phpMyAdmin\\templates\\login\\footer.twig");
     }
 }

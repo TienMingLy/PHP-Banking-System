@@ -1,7 +1,7 @@
 <html>
 	<head>
 		<link rel="stylesheet" type="text/css" href="../css/adminLevel_1/delete_admin.css">
-		<title>Admin Password Reset</title>
+		<title>Admin Delete</title>
 	</head>
 
 	<body>
@@ -13,7 +13,7 @@
 				<br/>
 				<input type="submit" name="action" value="Delete" id="deleteButton"></input>	
 				<br/>
-				<a href="listAllAdmin1"><input type="submit" value="Back" id="cancelButton"></input></a>
+				<a href="listAllAdmin1">Back</a>
 			</form>
 		</div>
 

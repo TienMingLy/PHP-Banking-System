@@ -5,13 +5,18 @@
 	</head>
 	
 	<body>
-		<div id="userListDiv">					
-			<table id="listUserTable">
+		<div id="userListDiv">				
+			
+			<form action='' method='post'>
+				<label>Search by Username: <input type="text" name="username"></label>
+				<input type="submit" name='action' value="Search">
+			</form>
+			
+			<table id="listUserTable" name="action">
 				<thead>
 					<tr>
 						<th colspan="11"><h2>User Table</h2></th>
-					</tr>
-
+					</tr>									
 					<t>
 						<th>User_id</th>
 						<th>Username</th>
@@ -23,6 +28,7 @@
 						<th>Contact Info</th>
 						<th>Reset PW</th>
 						<th>Account Status Update</th>
+						<th>Delete</th>
 					</t>
 				</thead>
 
@@ -67,7 +73,7 @@
 								<?php
 									}	
 								?>
-							
+							<td><a href="deleteUserAccount1?User_id=<?=$user['User_id']?>"><input type="submit" value="Delete"></input></a></td>
 
 						</tr>
 				<?php

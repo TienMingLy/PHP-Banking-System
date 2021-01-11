@@ -63,6 +63,6 @@ class __TwigTemplate_ceac8a63a78e5ab35a6a3080c297d1ef3a51e919a03746bcd4d4059c8f8
 
     public function getSourceContext()
     {
-        return new Source("", "database/structure/search_table.twig", "D:\\xampp-banking_system\\phpMyAdmin\\templates\\database\\structure\\search_table.twig");
+        return new Source("", "database/structure/search_table.twig", "D:\\Github Project\\PHP-Banking-System\\phpMyAdmin\\templates\\database\\structure\\search_table.twig");
     }
 }

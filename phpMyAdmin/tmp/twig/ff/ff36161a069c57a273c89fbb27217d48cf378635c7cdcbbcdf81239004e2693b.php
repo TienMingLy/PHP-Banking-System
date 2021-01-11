@@ -81,6 +81,6 @@ class __TwigTemplate_7bfcf15aae3af3e3910379e57e465c70c60ff4eb3167881c9cb6496b83e
 
     public function getSourceContext()
     {
-        return new Source("", "privileges/add_user_fieldset.twig", "D:\\xampp-banking_system\\phpMyAdmin\\templates\\privileges\\add_user_fieldset.twig");
+        return new Source("", "privileges/add_user_fieldset.twig", "D:\\Github Project\\PHP-Banking-System\\phpMyAdmin\\templates\\privileges\\add_user_fieldset.twig");
     }
 }

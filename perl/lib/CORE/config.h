@@ -937,7 +937,7 @@
  *	This symbol contains the ~name expanded version of ARCHLIB, to be used
  *	in programs that are not prepared to deal with ~ expansion at run-time.
  */
-#define ARCHLIB "D:\\php-banking-project\\perl\\lib"		/**/
+#define ARCHLIB "D:\\Github Project\\PHP-Banking-System\\perl\\lib"		/**/
 /*#define ARCHLIB_EXP ""	/ **/
 
 /* ARCHNAME:
@@ -960,8 +960,8 @@
  *	This symbol, if defined, indicates that we'd like to relocate entries
  *	in @INC at run time based on the location of the perl binary.
  */
-#define BIN "D:\\php-banking-project\\perl\\bin"	/**/
-#define BIN_EXP "D:\\php-banking-project\\perl\\bin"	/**/
+#define BIN "D:\\Github Project\\PHP-Banking-System\\perl\\bin"	/**/
+#define BIN_EXP "D:\\Github Project\\PHP-Banking-System\\perl\\bin"	/**/
 /*#define PERL_RELOCATABLE_INC  		/ **/
 
 /* INTSIZE:
@@ -3026,7 +3026,7 @@
  *	This symbol contains the ~name expanded version of PRIVLIB, to be used
  *	in programs that are not prepared to deal with ~ expansion at run-time.
  */
-#define PRIVLIB "D:\\php-banking-project\\perl\\lib"		/**/
+#define PRIVLIB "D:\\Github Project\\PHP-Banking-System\\perl\\lib"		/**/
 #define PRIVLIB_EXP (win32_get_privlib(PERL_VERSION_STRING, NULL))	/**/
 
 /* CAN_PROTOTYPE:
@@ -3170,7 +3170,7 @@
  *	This symbol contains the ~name expanded version of SITEARCH, to be used
  *	in programs that are not prepared to deal with ~ expansion at run-time.
  */
-#define SITEARCH "D:\\php-banking-project\\perl\\site\\lib"		/**/
+#define SITEARCH "D:\\Github Project\\PHP-Banking-System\\perl\\site\\lib"		/**/
 /*#define SITEARCH_EXP ""	/ **/
 
 /* SITELIB:
@@ -3193,7 +3193,7 @@
  *	removed.  The elements in inc_version_list (inc_version_list.U) can
  *	be tacked onto this variable to generate a list of directories to search.
  */
-#define SITELIB "D:\\php-banking-project\\perl\\site\\lib"		/**/
+#define SITELIB "D:\\Github Project\\PHP-Banking-System\\perl\\site\\lib"		/**/
 #define SITELIB_EXP (win32_get_sitelib(PERL_VERSION_STRING, NULL))	/**/
 #define SITELIB_STEM ""		/**/
 
@@ -3296,8 +3296,8 @@
  *	This symbol contains the ~name expanded version of PERL_VENDORARCH, to be used
  *	in programs that are not prepared to deal with ~ expansion at run-time.
  */
-#define PERL_VENDORARCH "D:\\php-banking-project\\perl\\vendor\\lib"		/**/
-#define PERL_VENDORARCH_EXP "D:\\php-banking-project\\perl\\vendor\\lib"		/**/
+#define PERL_VENDORARCH "D:\\Github Project\\PHP-Banking-System\\perl\\vendor\\lib"		/**/
+#define PERL_VENDORARCH_EXP "D:\\Github Project\\PHP-Banking-System\\perl\\vendor\\lib"		/**/
 
 /* PERL_VENDORLIB_EXP:
  *	This symbol contains the ~name expanded version of VENDORLIB, to be used
@@ -3308,7 +3308,7 @@
  *	removed.  The elements in inc_version_list (inc_version_list.U) can
  *	be tacked onto this variable to generate a list of directories to search.
  */
-#define PERL_VENDORLIB_EXP "D:\\php-banking-project\\perl\\vendor\\lib"		/**/
+#define PERL_VENDORLIB_EXP "D:\\Github Project\\PHP-Banking-System\\perl\\vendor\\lib"		/**/
 #define PERL_VENDORLIB_STEM ""		/**/
 
 /* VOIDFLAGS:

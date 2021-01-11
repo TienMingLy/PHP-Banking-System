@@ -81,6 +81,6 @@ class __TwigTemplate_1ca04f42444804ef1f173c302d9c1078e09fe13f67b2b1b3d74cc3124b7
 
     public function getSourceContext()
     {
-        return new Source("", "display/results/additional_fields.twig", "D:\\xampp-banking_system\\phpMyAdmin\\templates\\display\\results\\additional_fields.twig");
+        return new Source("", "display/results/additional_fields.twig", "D:\\Github Project\\PHP-Banking-System\\phpMyAdmin\\templates\\display\\results\\additional_fields.twig");
     }
 }

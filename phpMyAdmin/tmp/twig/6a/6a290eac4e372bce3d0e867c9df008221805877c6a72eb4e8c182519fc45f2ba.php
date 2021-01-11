@@ -68,6 +68,6 @@ class __TwigTemplate_ae370cc8dd4ccd1b742628040beee1ef85e816c81d9089743884b9d914c
 
     public function getSourceContext()
     {
-        return new Source("", "database/structure/empty_table.twig", "D:\\xampp-banking_system\\phpMyAdmin\\templates\\database\\structure\\empty_table.twig");
+        return new Source("", "database/structure/empty_table.twig", "D:\\Github Project\\PHP-Banking-System\\phpMyAdmin\\templates\\database\\structure\\empty_table.twig");
     }
 }

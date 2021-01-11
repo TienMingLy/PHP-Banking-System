@@ -97,6 +97,6 @@ class __TwigTemplate_d674dc0c182358ba369b7a0f64c447257c0dfeb2a1f2e830e448022f3aa
 
     public function getSourceContext()
     {
-        return new Source("", "table/relation/internal_relational_row.twig", "D:\\xampp-banking_system\\phpMyAdmin\\templates\\table\\relation\\internal_relational_row.twig");
+        return new Source("", "table/relation/internal_relational_row.twig", "D:\\Github Project\\PHP-Banking-System\\phpMyAdmin\\templates\\table\\relation\\internal_relational_row.twig");
     }
 }

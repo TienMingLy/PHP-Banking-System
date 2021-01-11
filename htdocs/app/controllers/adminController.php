@@ -29,20 +29,39 @@ class AdminController extends Controller
 
 
 	//-------------------------- ADMIN LEVEL 1 PRIVILEGED  -------------------------// 
+
 	public function listAllAdmin1()
 	{
-		$newAdmin = $this->model('Admin');
-		$allAdmins = $newAdmin->showAllAdmin();
+		if(!isset($_POST['action']))
+		{
+			$newAdmin = $this->model('Admin');
+			$allAdmins = $newAdmin->showAllAdmin();
+			$this->view('adminLevel_1/list_admin', ['admins' =>$allAdmins]);
+		}
 
-		$this->view('adminLevel_1/list_admin', ['admins' =>$allAdmins]);
+		else
+		{
+			$newAdmin = $this->model('Admin');
+			$allAdmins = $newAdmin->showTheSearchedAdmin($_POST['username']);
+			$this->view('adminLevel_1/list_admin', ['admins' =>$allAdmins]);
+		}
 	}
 
 	public function listAllUser1()
 	{	
-		$newAdmin = $this->model('Admin');
-		$allUsers = $newAdmin->showAllUser();
-
-		$this->view('adminLevel_1/list_user', ['users' =>$allUsers]);
+		if(!isset($_POST['action']))
+		{
+			$newAdmin = $this->model('Admin');
+			$allUsers = $newAdmin->showAllUser();
+			$this->view('adminLevel_1/list_user', ['users' =>$allUsers]);
+		}
+		
+		else
+		{
+			$newAdmin = $this->model('Admin');
+			$allUsers = $newAdmin->showTheSearchedUser($_POST['username']);
+			$this->view('adminLevel_1/list_user', ['users' =>$allUsers]);
+		}
 	}	
 
 	public function listAllUserChequingAccount1()
@@ -299,7 +318,23 @@ class AdminController extends Controller
             $client->deleteAdminAccount($_GET['Admin_id']);
             header('location:/admin/listAllAdmin1'); 
         }
-    }
+	}
+	
+	public function deleteUserAccount1()
+	{
+		$theAdmin = $this->model('Admin');
+		$thisInfo = $theAdmin->getUserFromId($_GET['User_id']);
+		$_SESSION['user_username'] = $thisInfo['Username'];
+
+		$this->view('adminLevel_1/delete_user');
+
+		if(isset($_POST['action']))
+        {
+        	$client = $this->model('Admin');
+            $client->deleteUserAccount($_GET['User_id']);
+            header('location:/admin/listAllUser1'); 
+        }
+	}
 
 
 

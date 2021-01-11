@@ -79,6 +79,6 @@ class __TwigTemplate_aa3df53777c4024b1c57feff07da110395d0fcc6ebb239286b5f6130a81
 
     public function getSourceContext()
     {
-        return new Source("", "display/results/multi_row_operations_form.twig", "D:\\xampp-banking_system\\phpMyAdmin\\templates\\display\\results\\multi_row_operations_form.twig");
+        return new Source("", "display/results/multi_row_operations_form.twig", "D:\\Github Project\\PHP-Banking-System\\phpMyAdmin\\templates\\display\\results\\multi_row_operations_form.twig");
     }
 }

@@ -25,7 +25,20 @@
 				<br/>
 				<label id="zipcodeLabel">Zipcode<input type='text' id="zipcodeInput" placeholder="Enter zipcode" name='zipcode' required/></label>
 				<br/>	
-				<input type='submit' name='action' value='Next' id="nextButton"/>
+				<?php
+					if(isset($_SESSION['account_active']))
+					{
+				?>
+					<input type='submit' name='action' value='Add' id="nextButton"/>
+				<?php
+					}
+					else
+					{
+				?>
+					<input type='submit' name='action' value='Next' id="nextButton"/>
+				<?php
+					}
+				?>
 			</form>
 		</div>
 	</body>

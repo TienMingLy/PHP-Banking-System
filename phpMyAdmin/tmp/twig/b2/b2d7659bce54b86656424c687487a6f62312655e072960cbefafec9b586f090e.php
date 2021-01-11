@@ -86,6 +86,6 @@ class __TwigTemplate_4aa135039aaf3727ce0923c2aec639b79e0d3f906d336689cffc28d105a
 
     public function getSourceContext()
     {
-        return new Source("", "table/relation/dropdown_generate.twig", "D:\\xampp-banking_system\\phpMyAdmin\\templates\\table\\relation\\dropdown_generate.twig");
+        return new Source("", "table/relation/dropdown_generate.twig", "D:\\Github Project\\PHP-Banking-System\\phpMyAdmin\\templates\\table\\relation\\dropdown_generate.twig");
     }
 }

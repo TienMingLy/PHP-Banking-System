@@ -6,6 +6,7 @@
 	
 	<body>
 		<div id="userListDiv">					
+			<a href="registerInfo">Create New Info</a>
 			<table id="userInfoTable">
 				<thead>
 					<tr>

@@ -473,6 +473,6 @@ $context["one_key"], "column_array" =>                     // line 57
 
     public function getSourceContext()
     {
-        return new Source("", "table/relation/common_form.twig", "D:\\xampp-banking_system\\phpMyAdmin\\templates\\table\\relation\\common_form.twig");
+        return new Source("", "table/relation/common_form.twig", "D:\\Github Project\\PHP-Banking-System\\phpMyAdmin\\templates\\table\\relation\\common_form.twig");
     }
 }

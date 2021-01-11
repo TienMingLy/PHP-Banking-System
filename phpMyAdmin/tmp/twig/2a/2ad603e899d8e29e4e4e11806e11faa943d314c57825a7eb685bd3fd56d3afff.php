@@ -259,6 +259,6 @@ $context["record"], "timevalue", [], "array")) : (_gettext("During current sessi
 
     public function getSourceContext()
     {
-        return new Source("", "console/display.twig", "D:\\xampp-banking_system\\phpMyAdmin\\templates\\console\\display.twig");
+        return new Source("", "console/display.twig", "D:\\Github Project\\PHP-Banking-System\\phpMyAdmin\\templates\\console\\display.twig");
     }
 }

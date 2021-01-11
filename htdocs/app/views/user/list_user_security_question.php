@@ -5,7 +5,8 @@
 	</head>
 	
 	<body>
-		<div id="securityQuestionDiv">					
+		<div id="securityQuestionDiv">		
+			<a href="registerSecurityQuestion">Create New Security Question</a>
 			<table id="securityQuestionTable">
 				<thead>
 					<tr>

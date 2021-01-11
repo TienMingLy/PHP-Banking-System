@@ -392,6 +392,6 @@ $context["sub_partition"], "getIndexLength", [], "method"), 3, 1);
 
     public function getSourceContext()
     {
-        return new Source("", "table/structure/display_partitions.twig", "D:\\xampp-banking_system\\phpMyAdmin\\templates\\table\\structure\\display_partitions.twig");
+        return new Source("", "table/structure/display_partitions.twig", "D:\\Github Project\\PHP-Banking-System\\phpMyAdmin\\templates\\table\\structure\\display_partitions.twig");
     }
 }
